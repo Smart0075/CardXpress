@@ -1,0 +1,117 @@
+*{
+    text-align: center;
+    align-items: center;
+    
+}
+  
+.reg h1{
+    font-weight: bolder;
+    font-size: medium;
+    font-style: oblique;
+
+}
+.reg{
+display: flex;
+flex-direction:row-reverse;
+min-height: 100vh;
+ padding: 20px;
+}
+
+input{
+
+    width: 50%;
+min-width: fit-content;
+border: 1px solid (white);
+box-shadow: 0px 8px 32px;
+border-radius: 15px;
+
+}
+
+.login{
+    max-width: 10%;
+width: 100%;
+max-width: 70%;
+border: 1px solid (white);
+box-shadow: 0px 8px 32px;
+border-radius: 20px;
+  margin: auto; 
+}
+
+
+button{
+    cursor: pointer;
+}
+
+.logoutBtn{
+    cursor: pointer;
+    background-color:red;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid (white);
+    border-radius: (15px);
+    box-shadow:  0px 8px  32px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+}
+
+p{
+   background-color: white;
+   color: black;
+    font-size: medium;
+    font-style: italic;
+}
+
+.hidden{
+    display: none;
+}
+
+.quick-service{
+    margin: 5px;
+    padding: 100px ; 
+}
+ body.dark{
+    background-color:blanchedalmond;
+    color:black;
+}
+
+
+.intro{
+    text-align: center;
+    align-items: center;
+border: 1xp solid (white);
+box-shadow: 8px 16px 32px;
+border-radius: 15px;
+width: 100%;
+max-width: 80%;
+margin: auto;
+
+
+}
+
+.intro .WELCOME{
+    font-weight: bold;  
+    animation: slide 5s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes slide {
+    from {transform: translateX(100%);
+    }to{transform: translateY(50%);
+
+    } 
+}
+
+.hidden {
+display: none;
+}
